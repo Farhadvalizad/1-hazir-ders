@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* 1ci hisse */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stylish {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    padding: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stylish h1 {
+    font-size: 80px;
+    color: #212529;
+}
+
+.stylish p {
+    font-size: 25px;
+    font-style: italic;
+    color: #212529;
+    font-weight: 700;
+    padding: 20px 0 60px 0;
+}
+
+.stylish button,
+.project button {
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #fff;
+    background-color: #1d809f;
+    transition: background-color .4s;
+}
+/* 2-ci hisse */
+.stylish button:hover,
+.project button:hover{
+    background: #156179;
+}
+
+.project {
+    text-align: center;
+    background: white;
+    padding: 100px;
+}
+
+.project h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.project p {
+    padding: 20px 0 40px 0;
+}
+
+.project button {
+    background: #212529;
+}
+
+.project p a {
+    text-decoration: none;
+}
+.project p a:hover{
+    text-decoration: underline;
+}
+/* 3cu hisse */
+.services{
+    padding: 100px 0;
+    background-color: #1d809f;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+.services .text-holder{
+    text-align: center;
+
+}
+.services .text-holder h3{
+    color: #ecb807;  
+    text-transform: uppercase;  
+}
+.services .text-holder h1{
+    color: white;    
+}
+
+.ferhad{
+    width: 25%;
+    text-align: center;
+    color: white;
+    float: left;
+    
+}
+.ferhad-img{
+    width: max-content;
+    padding: 50px 55px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+}
+.ferhad-img i{
+    color: #1d809f;
+    font-size: 50px;
+
+}
+.ferhad h2{
+    padding: 15px 0 10px 0;
+
+}
+.ferhad p{
+    opacity: 0.6;
+}
+/* 4cu hisse */
+#fourth .col-lg-12{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+#fourth .welcome h1{
+    font-weight: 900;
+    padding: 0 0 25px 0;
+}
+#fourth .welcome button{
+    padding: 15px 20px 15px 20px;
+}
+/* 5ci hisse */
+.strawberry{
+    padding: 0 0 60px 0;
+}
+.container .texting{
+    padding: 38px;
+}
+.container .texting p{
+color: #ecb807;   
+font-weight: 900;
+}
+.container .texting h1{
+    font-weight: 900;
+}
+
+.station1, .station2, .station3, .station4{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+.station1:hover, .station2:hover, .station3:hover,.station4:hover{
+    clip-path: inset(15px);
+    opacity: 0.4;
+}
+.station2{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg);
+}
+.station3{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg);    
+}
+.station4{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg);
+}
+.sekil  .pencil{
+    padding: 250px 0 0px 40px;
+    color: white;
+}
+
+/* 6ci hisse */
+.impossible{
+    background-color: #1d809f;
+    padding: 75px;
+    color: #fff;
+}
+.impossible button{
+    padding: 15px 25px 15px 25px;
+    margin: 0 22px 0 0;
+}
+
+
+/* son hisse */
+.icon { 
+    width: 100px;
+    height: 35%;
+    display: flex;
+    left: 50%;
+
+}
+
+.icon1 {
+    padding: 20px;
+    background: #1d809f;
+    color: white;
+    border-radius: 50%;
+    height: 33%;
+}
+
+.icon2 {
+    padding: 20px;
+    background: #1d809f;
+    color: white;
+    border-radius: 50%;
+    height: 33%;
+}
+
+.icon3 {
+    padding: 20px;
+    background: #1d809f;
+    color: white;
+    border-radius: 50%;
+    height: 33%;
+}
